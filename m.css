@@ -1,0 +1,121 @@
+.container{
+	border:2px solid olive;
+	border-radius:15px;
+	text-align:center;
+	color:#cdcdcd;
+	height:50px;
+	margin-top:20px;
+	background-color:#666600;
+	font-size:26px;
+	width:650px;
+}
+.container-fluid{
+	border:3px solid olive;
+	border-radius:26px;
+	text-align:center;
+	color:brown;
+	height:80px;
+	margin-top:20px;
+	background-color:cadetblue;
+	font-size:33px;
+}
+.img{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:500px;
+	height:500px;
+}
+.b{
+	 width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	border:1px solid pink;
+	border-radius:15px;
+	text-align:center;
+	color:#olive;
+	height:288px;
+	margin-top:20px;
+	background-image:url('lo.jpg');
+	background-size:100%;
+	font-size:30px;
+	width:800px;
+}
+@media (min-width: 576px) {
+  .b {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .b {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .b {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .b {
+    max-width: 1140px;
+  }
+}
+
+.c{
+	 width: 500%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	border:1px solid pink;
+	border-radius:15px;
+	text-align:center;
+	color:#olive;
+	height:70px;
+	margin-top:20px;
+	background-color:gold;
+	background-size:100%;
+	font-size:30px;
+	width:800px;
+}
+@media (min-width: 576px) {
+  .c {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .c {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c {
+    max-width: 1140px;
+  }
+}
+.c button{
+	height:70px;
+	width:300px;
+	border-radius:50px;
+	background-color:khaki;
+}
+.c button a{
+	color:maroon;
+}
+.c button:hover{
+	background-color:orange;
+}
